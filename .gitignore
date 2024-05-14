@@ -24,6 +24,9 @@
 
 *.suo
 *.user
+*.cache
+*.scp.css
+*.info
 .vs/
 [Bb]in/
 [Oo]bj/
