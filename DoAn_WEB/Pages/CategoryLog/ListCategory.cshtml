@@ -1,0 +1,47 @@
+@page
+@model DoAn_WEB.Pages.CategoryLog.ListCategory
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<div>
+
+    <div>
+        <a href="./AddCategory">Thêm loại hàng mới</a>
+        <form method="post">
+            <input type="text" placeholder="Keyword" value="" name="keyword"/>
+            <input type="submit" value="Tìm kiếm"/>
+        </form>
+    </div>
+    @if (Model.categories.Count > 0)
+    {
+        <div>
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>Category name</th>
+                    <th>Detail</th>
+                </tr>
+                @{
+                    foreach (var sp in Model.categories)
+                    {
+                        <tr>
+                            <td>@sp.Id</td>
+                            <td>@sp.Name</td>
+                            <td>
+                                <a href="./UpdateCategory?id=@sp.Id">Update</a> <a href="./DeleteCategory?id=@sp.Id">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                }
+
+            </table>
+        </div>
+    }
+</div>
+</body>
+</html>

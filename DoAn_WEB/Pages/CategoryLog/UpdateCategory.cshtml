@@ -1,0 +1,26 @@
+@page
+@model DoAn_WEB.Pages.CategoryLog.UpdateCategory
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<div>
+    <form class="form-inline" method="post">
+        <div class="form-group mb-2">
+            <label class="sr-only">Cập nhật thông tin cho sản phẩm @Model.id :</label>
+        </div>
+        <div class="form-group mx-sm-3 mb-2">
+            <label class="sr-only">Tên loại hàng</label>
+            <input type="text" value="" name="Name" class="form-control" placeholder="@Model.Name">
+        </div>
+        <button type="submit" class="btn btn-primary mb-2">Update</button>
+    </form>
+    <p>@Model.print</p>
+</div>
+</body>
+</html>

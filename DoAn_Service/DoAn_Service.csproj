@@ -15,4 +15,9 @@
         <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="6.0.26"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\DoAn_Entity\DoAn_Entity.csproj" />
+      <ProjectReference Include="..\DoAn_Repository\DoAn_Repository.csproj" />
+    </ItemGroup>
+
 </Project>

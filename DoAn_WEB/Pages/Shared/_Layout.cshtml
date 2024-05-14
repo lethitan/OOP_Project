@@ -7,6 +7,23 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
     <link rel="stylesheet" href="~/DoAn_WEB.styles.css" asp-append-version="true"/>
+    <style>
+            table {
+              font-family: arial, sans-serif;
+              border-collapse: collapse;
+              width: 100%;
+            }
+            
+            td, th {
+              border: 1px solid #dddddd;
+              text-align: left;
+              padding: 8px;
+            }
+            
+            tr:nth-child(even) {
+              background-color: #dddddd;
+            }
+            </style>
 </head>
 <body>
 <header>
@@ -32,6 +49,28 @@
 </header>
 <div class="container">
     <main role="main" class="pb-3">
+        <h1 class="display-4">Welcome</h1>
+
+        <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+            <ul class="navbar-nav flex-grow-1">
+                <li class="nav-item">
+                    <a href="/Product/ListProduct">Danh sách sản phẩm</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/CategoryLog/ListCategory">Danh sách loại hàng</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/InputInvoice/ListInputInvoice">Danh sách hoá đơn nhập hàng</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/OutputInvoice/ListOutputInvoice">Danh sach hoá đơn bán hàng</a>
+                </li>
+            </ul>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
         @RenderBody()
     </main>
 </div>

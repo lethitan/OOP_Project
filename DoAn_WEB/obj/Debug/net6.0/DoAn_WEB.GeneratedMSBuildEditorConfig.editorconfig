@@ -9,11 +9,27 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DoAn_WEB
 build_property.RootNamespace = DoAn_WEB
 build_property.ProjectDir = /Users/chocole/Desktop/DoAn_OOP/DoAn_WEB/
-build_property.RazorLangVersion = 6.0
+build_property.RazorLangVersion = 2.1
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = /Users/chocole/Desktop/DoAn_OOP/DoAn_WEB
 build_property._RazorSourceGeneratorDebug = 
+
+[/Users/chocole/Desktop/DoAn_OOP/DoAn_WEB/Pages/CategoryLog/AddCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZWdvcnlMb2cvQWRkQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/chocole/Desktop/DoAn_OOP/DoAn_WEB/Pages/CategoryLog/DeleteCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZWdvcnlMb2cvRGVsZXRlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/chocole/Desktop/DoAn_OOP/DoAn_WEB/Pages/CategoryLog/ListCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZWdvcnlMb2cvTGlzdENhdGVnb3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/chocole/Desktop/DoAn_OOP/DoAn_WEB/Pages/CategoryLog/UpdateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZWdvcnlMb2cvVXBkYXRlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/chocole/Desktop/DoAn_OOP/DoAn_WEB/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
@@ -27,6 +43,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/chocole/Desktop/DoAn_OOP/DoAn_WEB/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/chocole/Desktop/DoAn_OOP/DoAn_WEB/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -38,7 +58,3 @@ build_metadata.AdditionalFiles.CssScope =
 [/Users/chocole/Desktop/DoAn_OOP/DoAn_WEB/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/chocole/Desktop/DoAn_OOP/DoAn_WEB/Pages/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-zdhpb8hfqf

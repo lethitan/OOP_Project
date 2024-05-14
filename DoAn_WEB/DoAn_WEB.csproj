@@ -6,4 +6,20 @@
         <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\DoAn_Entity\DoAn_Entity.csproj" />
+      <ProjectReference Include="..\DoAn_Service\DoAn_Service.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Pages\category\AddCategory.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\category\List.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\category\ListCategory.cshtml" />
+    </ItemGroup>
+
 </Project>

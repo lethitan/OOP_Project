@@ -1,0 +1,23 @@
+@page
+@model DoAn_WEB.Pages.CategoryLog.DeleteCategory
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<div>
+    <form class="form-inline" method="post">
+        <div class="form-group mb-2">
+            <abel class="sr-only">Bạn chắc chắn xoá loại hàng @Model.id :</abel>
+        </div>
+        <button type="submit" class="btn btn-primary mb-2">Xoá</button>
+    </form>
+    <a href="./ListCategory">Trở lại</a>
+        <p>@Model.print</p>
+</div>
+</body>
+</html>
