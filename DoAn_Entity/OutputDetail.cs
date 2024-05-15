@@ -7,6 +7,25 @@ public class OutputDetail
     private int _quantity;
     private double _price;
 
+    public OutputDetail()
+    {
+    }
+
+    public OutputDetail(int quantity, double price, Product product)
+    {
+        _quantity = quantity;
+        _price = price;
+        Product = product;
+    }
+
+    public OutputDetail(int quantity, double price, int id, Product product)
+    {
+        _quantity = quantity;
+        _price = price;
+        this.id = id;
+        Product = product;
+    }
+
     public double Price
     {
         get => _price;

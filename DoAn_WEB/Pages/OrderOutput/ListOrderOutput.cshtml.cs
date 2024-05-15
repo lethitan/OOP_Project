@@ -5,19 +5,19 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace DoAn_WEB.Pages.OrderOutput;
 
-public class ListOrderoutput : PageModel
+public class ListOrderOutput : PageModel
 {
-    private IOrderOutputService _productService = new OrderOutputService();
+    private IOrderOutputService _orderOutputService = new OrderOutputService();
     [BindProperty] public string Keyword { get; set; } = string.Empty;
     public List<OutputInvoice> dssp = new List<OutputInvoice>();
 
     public void OnGet()
     {
-         dssp = _productService.GetList();
+         dssp = _orderOutputService.GetList();
     }
 
     public void OnPost()
     {
-        dssp = _productService.GetList(Keyword);
+        dssp = _orderOutputService.GetList(Keyword);
     }
 }

@@ -1,0 +1,32 @@
+@page
+@model DoAn_WEB.Pages.OrderOutput.AddItemToOrder
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<div>
+    <form method="post">
+        <label for="productId">Sản phẩm : </label>
+        <select name="ProductId" id="ProductId">
+            @{
+                foreach (var product in Model.Products)
+                {
+                    <option selected="@product.Id" value="@product.Id">@product.Name</option>
+                }
+            }
+        </select><br/>
+        <label for="productId">Số lượng : </label>
+        <input type="number" name="Quantity" min="1" max="100" value=""/><br/>
+        <label for="productId">Đơn giá : </label>
+        <input type="text" name="Price" value=""/>
+        <input type="submit" value="Thêm vào"/>
+    </form>
+</div>
+<h4>@Model.print</h4>
+</body>
+</html>

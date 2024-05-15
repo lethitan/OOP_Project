@@ -6,6 +6,7 @@ public interface IOrderOutputService
 {
     List<OutputInvoice> GetList(string keyword = "");
     int CountInventoryById(int id);
+    void AddOutputDetail(OutputDetail inputDetail);
     OutputInvoice GetById(int id);
     void AddInvoice(OutputInvoice invoice);
     List<OutputDetail> LoadListDetail();

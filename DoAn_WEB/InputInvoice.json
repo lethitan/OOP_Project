@@ -1,1 +1,334 @@
-[{"ID":1,"Created":"2023-12-12T00:00:00","ImportDetails":[{"id":1,"Product":{"Id":1,"Name":"TungDo","Provider":"CAM","Category":{"Id":1,"Name":"TungDo"},"ExpDate":"2014-10-01T00:00:00","Created":"2001-11-12T00:00:00"},"Price":100.0,"Quantity":2},{"id":2,"Product":{"Id":2,"Name":"Tung","Provider":"SAM","Category":{"Id":2,"Name":"Tung"},"ExpDate":"2014-10-01T00:00:00","Created":"2001-11-11T00:00:00"},"Price":100.0,"Quantity":4}]},{"ID":2,"Created":"2022-12-12T00:00:00","ImportDetails":[{"id":3,"Product":{"Id":1,"Name":"TungDo","Provider":"CAM","Category":{"Id":1,"Name":"TungDo"},"ExpDate":"2014-10-01T00:00:00","Created":"2001-11-12T00:00:00"},"Price":100.0,"Quantity":5}]},{"ID":4,"Created":"2024-05-13T00:00:00+07:00","ImportDetails":[{"id":5,"Product":{"Id":4,"Name":"Xíu Páo","Provider":"asfcx","Category":{"Id":3,"Name":"Dooooo"},"ExpDate":"2024-05-31T00:00:00","Created":"2024-05-01T00:00:00"},"Price":20.0,"Quantity":5}]},{"ID":5,"Created":"2024-05-13T00:00:00+07:00","ImportDetails":[{"id":6,"Product":{"Id":4,"Name":"Xíu Páo","Provider":"asfcx","Category":{"Id":3,"Name":"Dooooo"},"ExpDate":"2024-05-31T00:00:00","Created":"2024-05-01T00:00:00"},"Price":100.0,"Quantity":10},{"id":7,"Product":{"Id":2,"Name":"Tung","Provider":"SAM","Category":{"Id":2,"Name":"Tung"},"ExpDate":"2014-10-01T00:00:00","Created":"2001-11-11T00:00:00"},"Price":200.0,"Quantity":100}]},{"ID":6,"Created":"2024-05-13T00:00:00+07:00","ImportDetails":[{"id":6,"Product":{"Id":1,"Name":"TungDo","Provider":"CAM","Category":{"Id":1,"Name":"TungDo"},"ExpDate":"2014-10-21T00:00:00","Created":"2001-11-12T00:00:00"},"Price":20.0,"Quantity":1},{"id":7,"Product":{"Id":4,"Name":"Xíu Páo","Provider":"asfcx","Category":{"Id":3,"Name":"Dooooo"},"ExpDate":"2024-05-31T00:00:00","Created":"2024-05-01T00:00:00"},"Price":220.0,"Quantity":3}]},{"ID":7,"Created":"2024-05-13T00:00:00+07:00","ImportDetails":[{"id":7,"Product":{"Id":2,"Name":"Tung","Provider":"SAM","Category":{"Id":2,"Name":"Tung"},"ExpDate":"2014-10-01T00:00:00","Created":"2001-11-11T00:00:00"},"Price":20.0,"Quantity":4},{"id":8,"Product":{"Id":1,"Name":"TungDo","Provider":"CAM","Category":{"Id":1,"Name":"TungDo"},"ExpDate":"2014-10-21T00:00:00","Created":"2001-11-12T00:00:00"},"Price":60.0,"Quantity":3}]},{"ID":8,"Created":"2024-05-13T00:00:00+07:00","ImportDetails":[{"id":7,"Product":{"Id":2,"Name":"Tung","Provider":"SAM","Category":{"Id":2,"Name":"Tung"},"ExpDate":"2014-10-01T00:00:00","Created":"2001-11-11T00:00:00"},"Price":20.0,"Quantity":4},{"id":8,"Product":{"Id":1,"Name":"TungDo","Provider":"CAM","Category":{"Id":1,"Name":"TungDo"},"ExpDate":"2014-10-21T00:00:00","Created":"2001-11-12T00:00:00"},"Price":60.0,"Quantity":3},{"id":10,"Product":{"Id":2,"Name":"Tung","Provider":"SAM","Category":{"Id":2,"Name":"Tung"},"ExpDate":"2014-10-01T00:00:00","Created":"2001-11-11T00:00:00"},"Price":70.0,"Quantity":3}]},{"ID":9,"Created":"2024-05-13T00:00:00+07:00","ImportDetails":[{"id":9,"Product":{"Id":1,"Name":"TungDo","Provider":"CAM","Category":{"Id":1,"Name":"TungDo"},"ExpDate":"2014-10-21T00:00:00","Created":"2001-11-12T00:00:00"},"Price":50.0,"Quantity":1}]},{"ID":10,"Created":"2024-05-13T00:00:00+07:00","ImportDetails":[{"id":9,"Product":{"Id":1,"Name":"TungDo","Provider":"CAM","Category":{"Id":1,"Name":"TungDo"},"ExpDate":"2014-10-21T00:00:00","Created":"2001-11-12T00:00:00"},"Price":6.0,"Quantity":1},{"id":11,"Product":{"Id":1,"Name":"TungDo","Provider":"CAM","Category":{"Id":1,"Name":"TungDo"},"ExpDate":"2014-10-21T00:00:00","Created":"2001-11-12T00:00:00"},"Price":90.0,"Quantity":10}]},{"ID":11,"Created":"2024-05-15T15:50:19.476914+07:00","ImportDetails":[{"id":12,"Product":{"Id":10,"Name":"tếtsdfcsdf","Provider":"csds","Category":{"Id":1,"Name":"Mì tôm"},"ExpDate":"0001-01-01T00:00:00","Created":"0001-01-01T00:00:00"},"Price":3535555.0,"Quantity":6}]}]
+[
+  {
+    "ID": 1,
+    "Created": "2023-12-12T00:00:00",
+    "ImportDetails": [
+      {
+        "id": 1,
+        "Product": {
+          "Id": 1,
+          "Name": "TungDo",
+          "Provider": "CAM",
+          "Category": {
+            "Id": 1,
+            "Name": "TungDo"
+          },
+          "ExpDate": "2014-10-01T00:00:00",
+          "Created": "2001-11-12T00:00:00"
+        },
+        "Price": 100.0,
+        "Quantity": 2
+      },
+      {
+        "id": 2,
+        "Product": {
+          "Id": 2,
+          "Name": "Tung",
+          "Provider": "SAM",
+          "Category": {
+            "Id": 2,
+            "Name": "Tung"
+          },
+          "ExpDate": "2014-10-01T00:00:00",
+          "Created": "2001-11-11T00:00:00"
+        },
+        "Price": 100.0,
+        "Quantity": 4
+      }
+    ]
+  },
+  {
+    "ID": 2,
+    "Created": "2022-12-12T00:00:00",
+    "ImportDetails": [
+      {
+        "id": 3,
+        "Product": {
+          "Id": 1,
+          "Name": "TungDo",
+          "Provider": "CAM",
+          "Category": {
+            "Id": 1,
+            "Name": "TungDo"
+          },
+          "ExpDate": "2014-10-01T00:00:00",
+          "Created": "2001-11-12T00:00:00"
+        },
+        "Price": 100.0,
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "ID": 4,
+    "Created": "2024-05-13T00:00:00+07:00",
+    "ImportDetails": [
+      {
+        "id": 5,
+        "Product": {
+          "Id": 4,
+          "Name": "Xíu Páo",
+          "Provider": "asfcx",
+          "Category": {
+            "Id": 3,
+            "Name": "Dooooo"
+          },
+          "ExpDate": "2024-05-31T00:00:00",
+          "Created": "2024-05-01T00:00:00"
+        },
+        "Price": 20.0,
+        "Quantity": 5
+      }
+    ]
+  },
+  {
+    "ID": 5,
+    "Created": "2024-05-13T00:00:00+07:00",
+    "ImportDetails": [
+      {
+        "id": 6,
+        "Product": {
+          "Id": 4,
+          "Name": "Xíu Páo",
+          "Provider": "asfcx",
+          "Category": {
+            "Id": 3,
+            "Name": "Dooooo"
+          },
+          "ExpDate": "2024-05-31T00:00:00",
+          "Created": "2024-05-01T00:00:00"
+        },
+        "Price": 100.0,
+        "Quantity": 10
+      },
+      {
+        "id": 7,
+        "Product": {
+          "Id": 2,
+          "Name": "Tung",
+          "Provider": "SAM",
+          "Category": {
+            "Id": 2,
+            "Name": "Tung"
+          },
+          "ExpDate": "2014-10-01T00:00:00",
+          "Created": "2001-11-11T00:00:00"
+        },
+        "Price": 200.0,
+        "Quantity": 100
+      }
+    ]
+  },
+  {
+    "ID": 6,
+    "Created": "2024-05-13T00:00:00+07:00",
+    "ImportDetails": [
+      {
+        "id": 6,
+        "Product": {
+          "Id": 1,
+          "Name": "TungDo",
+          "Provider": "CAM",
+          "Category": {
+            "Id": 1,
+            "Name": "TungDo"
+          },
+          "ExpDate": "2014-10-21T00:00:00",
+          "Created": "2001-11-12T00:00:00"
+        },
+        "Price": 20.0,
+        "Quantity": 1
+      },
+      {
+        "id": 7,
+        "Product": {
+          "Id": 4,
+          "Name": "Xíu Páo",
+          "Provider": "asfcx",
+          "Category": {
+            "Id": 3,
+            "Name": "Dooooo"
+          },
+          "ExpDate": "2024-05-31T00:00:00",
+          "Created": "2024-05-01T00:00:00"
+        },
+        "Price": 220.0,
+        "Quantity": 3
+      }
+    ]
+  },
+  {
+    "ID": 7,
+    "Created": "2024-05-13T00:00:00+07:00",
+    "ImportDetails": [
+      {
+        "id": 7,
+        "Product": {
+          "Id": 2,
+          "Name": "Tung",
+          "Provider": "SAM",
+          "Category": {
+            "Id": 2,
+            "Name": "Tung"
+          },
+          "ExpDate": "2014-10-01T00:00:00",
+          "Created": "2001-11-11T00:00:00"
+        },
+        "Price": 20.0,
+        "Quantity": 4
+      },
+      {
+        "id": 8,
+        "Product": {
+          "Id": 1,
+          "Name": "TungDo",
+          "Provider": "CAM",
+          "Category": {
+            "Id": 1,
+            "Name": "TungDo"
+          },
+          "ExpDate": "2014-10-21T00:00:00",
+          "Created": "2001-11-12T00:00:00"
+        },
+        "Price": 60.0,
+        "Quantity": 3
+      }
+    ]
+  },
+  {
+    "ID": 8,
+    "Created": "2024-05-13T00:00:00+07:00",
+    "ImportDetails": [
+      {
+        "id": 7,
+        "Product": {
+          "Id": 2,
+          "Name": "Tung",
+          "Provider": "SAM",
+          "Category": {
+            "Id": 2,
+            "Name": "Tung"
+          },
+          "ExpDate": "2014-10-01T00:00:00",
+          "Created": "2001-11-11T00:00:00"
+        },
+        "Price": 20.0,
+        "Quantity": 4
+      },
+      {
+        "id": 8,
+        "Product": {
+          "Id": 1,
+          "Name": "TungDo",
+          "Provider": "CAM",
+          "Category": {
+            "Id": 1,
+            "Name": "TungDo"
+          },
+          "ExpDate": "2014-10-21T00:00:00",
+          "Created": "2001-11-12T00:00:00"
+        },
+        "Price": 60.0,
+        "Quantity": 3
+      },
+      {
+        "id": 10,
+        "Product": {
+          "Id": 2,
+          "Name": "Tung",
+          "Provider": "SAM",
+          "Category": {
+            "Id": 2,
+            "Name": "Tung"
+          },
+          "ExpDate": "2014-10-01T00:00:00",
+          "Created": "2001-11-11T00:00:00"
+        },
+        "Price": 70.0,
+        "Quantity": 3
+      }
+    ]
+  },
+  {
+    "ID": 9,
+    "Created": "2024-05-13T00:00:00+07:00",
+    "ImportDetails": [
+      {
+        "id": 9,
+        "Product": {
+          "Id": 1,
+          "Name": "TungDo",
+          "Provider": "CAM",
+          "Category": {
+            "Id": 1,
+            "Name": "TungDo"
+          },
+          "ExpDate": "2014-10-21T00:00:00",
+          "Created": "2001-11-12T00:00:00"
+        },
+        "Price": 50.0,
+        "Quantity": 1
+      }
+    ]
+  },
+  {
+    "ID": 10,
+    "Created": "2024-05-13T00:00:00+07:00",
+    "ImportDetails": [
+      {
+        "id": 9,
+        "Product": {
+          "Id": 1,
+          "Name": "TungDo",
+          "Provider": "CAM",
+          "Category": {
+            "Id": 1,
+            "Name": "TungDo"
+          },
+          "ExpDate": "2014-10-21T00:00:00",
+          "Created": "2001-11-12T00:00:00"
+        },
+        "Price": 6.0,
+        "Quantity": 1
+      },
+      {
+        "id": 11,
+        "Product": {
+          "Id": 1,
+          "Name": "TungDo",
+          "Provider": "CAM",
+          "Category": {
+            "Id": 1,
+            "Name": "TungDo"
+          },
+          "ExpDate": "2014-10-21T00:00:00",
+          "Created": "2001-11-12T00:00:00"
+        },
+        "Price": 90.0,
+        "Quantity": 10
+      }
+    ]
+  },
+  {
+    "ID": 11,
+    "Created": "2024-05-15T15:50:19.476914+07:00",
+    "ImportDetails": [
+      {
+        "id": 12,
+        "Product": {
+          "Id": 10,
+          "Name": "tếtsdfcsdf",
+          "Provider": "csds",
+          "Category": {
+            "Id": 1,
+            "Name": "Mì tôm"
+          },
+          "ExpDate": "0001-01-01T00:00:00",
+          "Created": "0001-01-01T00:00:00"
+        },
+        "Price": 3535555.0,
+        "Quantity": 6
+      }
+    ]
+  }
+]

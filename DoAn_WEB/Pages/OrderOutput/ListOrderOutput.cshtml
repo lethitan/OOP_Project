@@ -1,5 +1,5 @@
 @page
-@model DoAn_WEB.Pages.OrderOutput.ListOrderoutput
+@model DoAn_WEB.Pages.OrderOutput.ListOrderOutput
 
 <!DOCTYPE html>
 
@@ -10,7 +10,7 @@
 <body>
 <div>
     <div>
-        <a href="./AddInputInvoice">Tạo hoá đơn mới</a>
+        <a href="./AddOrderOutput">Tạo hoá đơn mới</a>
         <form method="post">
             <input type="text" placeholder="Search" name="Keyword"/>
             <input type="submit" value="Tìm kiếm"/>
@@ -36,7 +36,7 @@
                             <td>@sp.SumQuantity()</td>
                             <td>@sp.SumAmount()</td>
                             <td>
-                                <a href="./UpdateInputInvoice?id=@sp.ID">Update</a> | <a href="./DeleteInputInvoice?id=@sp.ID">Delete</a> | <a href="./DetailInputInvoice?id=@sp.ID">View detail</a>
+                                <a href="./UpdateOrder?id=@sp.ID">Update</a> | <a href="./DeleteOrder?id=@sp.ID">Delete</a> | <a href="./DetailOrder?id=@sp.ID">View detail</a>
                             </td>
                         </tr>
                     }

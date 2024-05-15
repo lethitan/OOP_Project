@@ -10,7 +10,7 @@ public class OrderOutputRepositoryImpl : IOrderOutputRepository
     public List<OutputInvoice> GetList()
     {
         List<OutputInvoice> invoices;
-        StreamReader reader = new StreamReader("_filePath");
+        StreamReader reader = new StreamReader(_filePath);
         string json = reader.ReadToEnd();
 
         invoices = JsonConvert.DeserializeObject<List<OutputInvoice>>(json);

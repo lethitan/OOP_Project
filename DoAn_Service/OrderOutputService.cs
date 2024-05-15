@@ -84,7 +84,7 @@ public class OrderOutputService : IOrderOutputService
         }
     }
 
-    public void AddOutputDetail(OutputDetail OutputDetail)
+    public void AddOutputDetail(OutputDetail outputDetail)
     {
         List<OutputInvoice> invoices = _orderOutputRepository.GetList();
         int maxId = 0;
@@ -99,8 +99,8 @@ public class OrderOutputService : IOrderOutputService
             }
         }
 
-        OutputDetail.id = maxId + 1 + _OutputDetails.Count;
-        _OutputDetails.Add(OutputDetail);
+        outputDetail.id = maxId + 1 + _OutputDetails.Count;
+        _OutputDetails.Add(outputDetail);
     }
 
     public List<OutputDetail> LoadListDetail()
