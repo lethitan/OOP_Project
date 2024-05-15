@@ -1,0 +1,49 @@
+@page
+@model DoAn_WEB.Pages.OrderOutput.ListOrderoutput
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<div>
+    <div>
+        <a href="./AddInputInvoice">Tạo hoá đơn mới</a>
+        <form method="post">
+            <input type="text" placeholder="Search" name="Keyword"/>
+            <input type="submit" value="Tìm kiếm"/>
+        </form>
+    </div>
+    @if (Model.dssp.Count > 0)
+    {
+        <div>
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>Created date</th>
+                    <th>Total item</th>
+                    <th>Total amount</th>
+                    <th>Detail</th>
+                </tr>
+                @{
+                    foreach (var sp in Model.dssp)
+                    {
+                        <tr>
+                            <td>@sp.ID</td>
+                            <td>@sp.Created.ToShortDateString()</td>
+                            <td>@sp.SumQuantity()</td>
+                            <td>@sp.SumAmount()</td>
+                            <td>
+                                <a href="./UpdateInputInvoice?id=@sp.ID">Update</a> | <a href="./DeleteInputInvoice?id=@sp.ID">Delete</a> | <a href="./DetailInputInvoice?id=@sp.ID">View detail</a>
+                            </td>
+                        </tr>
+                    }
+                }
+            </table>
+        </div>
+    }
+</div>
+</body>
+</html>

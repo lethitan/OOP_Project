@@ -1,0 +1,49 @@
+@page
+@model DoAn_WEB.Pages.OrderInput.AddOrderInput
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<div>
+    <div>
+        <a href="./AddItemToOrder">Thêm vào hoá đơn</a>
+        <form method="post">
+            <label>Hoàn tất hoá đơn : </label>
+            <input type="submit" value="Xong"/>
+        </form>
+    </div>
+    @if (Model.inputDetails.Count > 0)
+    {
+        <div>
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total amount</th>
+                </tr>
+                @{
+                    foreach (var input in Model.inputDetails)
+                    {
+                        <tr>
+                            <td>@input.id</td>
+                            <td>@input.Product.Name</td>
+                            <td>@input.Quantity</td>
+                            <td>@input.Price</td>
+                            <td>@input.TotalAmount()</td>
+                        </tr>
+                    }
+                }
+            </table>
+        </div>
+    }
+    <h4>@Model.print</h4>
+</div>
+</body>
+</html>

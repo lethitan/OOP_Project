@@ -4,10 +4,14 @@ namespace DoAn_Service;
 
 public interface IOrderOutputService
 {
-    List<InputInvoice> GetList();
+    List<OutputInvoice> GetList(string keyword = "");
     int CountInventoryById(int id);
-    InputInvoice GetById(int id);
-    void AddProduct(InputInvoice invoice);
-    void UpdateProduct(InputInvoice invoice);
+    OutputInvoice GetById(int id);
+    void AddInvoice(OutputInvoice invoice);
+    List<OutputDetail> LoadListDetail();
+    void UpdateInvoice(OutputDetail invoice, int invoiceId);
     void Delete(int id);
+    void DeleteItem(int id, int invoiceId);
+
+    OutputDetail GetDetailById(int detailId);
 }

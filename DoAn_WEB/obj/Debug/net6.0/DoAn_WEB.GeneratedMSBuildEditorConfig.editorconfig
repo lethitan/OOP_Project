@@ -39,6 +39,42 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/chocole/Desktop/DoAn_OOP/DoAn_WEB/Pages/OrderInput/AddItemToOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3JkZXJJbnB1dC9BZGRJdGVtVG9PcmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/chocole/Desktop/DoAn_OOP/DoAn_WEB/Pages/OrderInput/AddOrderInput.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3JkZXJJbnB1dC9BZGRPcmRlcklucHV0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/chocole/Desktop/DoAn_OOP/DoAn_WEB/Pages/OrderInput/DeleteItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3JkZXJJbnB1dC9EZWxldGVJdGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/chocole/Desktop/DoAn_OOP/DoAn_WEB/Pages/OrderInput/DeleteOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3JkZXJJbnB1dC9EZWxldGVPcmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/chocole/Desktop/DoAn_OOP/DoAn_WEB/Pages/OrderInput/DetailOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3JkZXJJbnB1dC9EZXRhaWxPcmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/chocole/Desktop/DoAn_OOP/DoAn_WEB/Pages/OrderInput/ListOrderInput.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3JkZXJJbnB1dC9MaXN0T3JkZXJJbnB1dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/chocole/Desktop/DoAn_OOP/DoAn_WEB/Pages/OrderInput/UpdateDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3JkZXJJbnB1dC9VcGRhdGVEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/chocole/Desktop/DoAn_OOP/DoAn_WEB/Pages/OrderInput/UpdateOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3JkZXJJbnB1dC9VcGRhdGVPcmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/chocole/Desktop/DoAn_OOP/DoAn_WEB/Pages/OrderOutput/ListOrderoutput.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3JkZXJPdXRwdXQvTGlzdE9yZGVyb3V0cHV0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/chocole/Desktop/DoAn_OOP/DoAn_WEB/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

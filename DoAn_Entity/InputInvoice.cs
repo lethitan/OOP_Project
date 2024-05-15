@@ -4,13 +4,22 @@ public class InputInvoice
 {
     //Thanh phan du lieu
     public int ID { get; set; }
-    private InputDetail[] _importDetails;
+    private List<InputDetail> _importDetails;
     public DateTime Created { get; set; }
 
-    public InputDetail[] ImportDetails
+    public List<InputDetail> ImportDetails
     {
         get => _importDetails;
         set => _importDetails = value ?? throw new ArgumentNullException(nameof(value));
+    }
+
+    public InputInvoice()
+    {
+    }
+
+    public InputInvoice(List<InputDetail> importDetails)
+    {
+        _importDetails = importDetails;
     }
 
     public double SumAmount()

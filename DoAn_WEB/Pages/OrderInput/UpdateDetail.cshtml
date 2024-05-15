@@ -1,0 +1,29 @@
+@page
+@model DoAn_WEB.Pages.OrderInput.UpdateDetail
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<div>
+    @{
+        <form method="post">
+            <h4 for="category">Thông tin hoá đơn : </h4><br/>
+            <input type="text" readonly="readonly" hidden="hidden" name="productId" value="@Model.product.Id"/><br/><br/>
+            <label for="name">Tên sản phẩm : </label>
+            <input type="text" readonly="readonly" name="product" value="@Model.product.Name"/><br/><br/>
+            <label for="quantity">Số lượng : </label>
+            <input type="number" name="Quantity" value="@Model.Quantity"/><br/><br/>
+            <label for="price">Đơn gía : </label>
+            <input type="text" name="Price" value="@Model.Price"/><br/><br/>
+            <input type="submit" value="Lưu"/>
+        </form>
+        <p>@Model.print</p>
+    }
+
+</div>
+</body>
+</html>

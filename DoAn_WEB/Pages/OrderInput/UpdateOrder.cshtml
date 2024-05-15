@@ -1,0 +1,43 @@
+@page
+@model DoAn_WEB.Pages.OrderInput.UpdateOrder
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+@if (Model.Invoice.ImportDetails.Count > 0)
+{
+    <div>
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total amount</th>
+                <th>Detail</th>
+            </tr>
+            @{
+                foreach (var input in Model.Invoice.ImportDetails)
+                {
+                    <tr>
+                        <td>@input.id</td>
+                        <td>@input.Product.Name</td>
+                        <td>@input.Quantity</td>
+                        <td>@input.Price</td>
+                        <td>@input.TotalAmount()</td>
+                        <td>
+                            <a href="./UpdateDetail?id=@input.id&invoiceId=@Model.Invoice.ID">Update</a> <a href="./DeleteItem?id=@input.id&invoiceId=@Model.Invoice.ID">Delete</a>
+                        </td>
+                    </tr>
+                }
+            }
+        </table>
+        <a href="./ListOrderInput">Back</a>
+    </div>
+}
+</body>
+</html>
