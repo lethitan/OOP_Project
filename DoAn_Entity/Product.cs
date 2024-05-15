@@ -2,22 +2,45 @@ namespace DoAn_Entity;
 
 public class Product
 {
-    public int ID { get; set; }
+    public int Id { get; set; }
     public string Name { get; set; }
     public string Provider { get; set; }
     public Category Category { get; set; }
 
-    private DateTime expDate;
+    private DateTime _expDate;
     private DateTime _created;
+
+    public Product(DateTime expDate, DateTime created, string name, string provider, Category category)
+    {
+        _expDate = expDate;
+        _created = created;
+        Name = name;
+        Provider = provider;
+        Category = category;
+    }
+
+    public Product()
+    {
+    }
+
+    public Product(DateTime expDate, DateTime created, int id, string name, string provider, Category category)
+    {
+        _expDate = expDate;
+        _created = created;
+        Id = id;
+        Name = name;
+        Provider = provider;
+        Category = category;
+    }
 
     public DateTime ExpDate
     {
-        get => expDate;
+        get => _expDate;
         set
         {
-            if (value > DateTime.Today)
+            if (value > Created)
             {
-                expDate = value;
+                _expDate = value;
             }
         }
     }
@@ -27,7 +50,7 @@ public class Product
         get => _created;
         set
         {
-            if (value.Year < DateTime.Now.Year)
+            if (value < ExpDate)
             {
                 _created = value;
             }

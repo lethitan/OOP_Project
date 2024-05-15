@@ -49,3 +49,6 @@
 /Users/chocole/Desktop/DoAn_OOP/DoAn_WEB/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
 /Users/chocole/Desktop/DoAn_OOP/DoAn_WEB/bin/Debug/net6.0/Newtonsoft.Json.Bson.dll
 /Users/chocole/Desktop/DoAn_OOP/DoAn_WEB/bin/Debug/net6.0/System.Security.Permissions.dll
+/Users/chocole/Desktop/DoAn_OOP/DoAn_WEB/bin/Debug/net6.0/Product.json
+/Users/chocole/Desktop/DoAn_OOP/DoAn_WEB/bin/Debug/net6.0/InputInvoice.json
+/Users/chocole/Desktop/DoAn_OOP/DoAn_WEB/bin/Debug/net6.0/OutputInvoice.json

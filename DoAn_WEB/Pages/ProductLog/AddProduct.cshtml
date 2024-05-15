@@ -1,0 +1,47 @@
+@page
+@model DoAn_WEB.Pages.ProductLog.AddProduct
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<div>
+    <form class="form-inline" method="post">
+        <div class="form-group mb-2">
+            <h4 for="staticEmail2" class="sr-only">Thông tin sản phẩm mới :</h4>
+        </div>
+        <div class="form-group mx-sm-3 mb-2">
+            <label for="inputPassword2" class="sr-only">Tên sản phẩm :</label>
+            <input type="text" name="Name" placeholder="Product name">
+        </div>
+        <div class="form-group mx-sm-3 mb-2">
+            <label for="inputPassword2" class="sr-only">Công ty sản xuất :</label>
+            <input type="text" name="Provider" placeholder="Provider">
+        </div>
+        <div class="form-group mx-sm-3 mb-2">
+            <label for="inputPassword2" class="sr-only">Loại hàng :</label>
+            <select name="CategoryId" id="CategoryId">
+                @{
+                    foreach (var category in Model.Categories)
+                    {
+                        <option value="@category.Id">@category.Name</option>
+                    }
+                }
+            </select>
+        </div>
+        <div class="form-group mx-sm-3 mb-2">
+            <label for="inputPassword2" class="sr-only">Ngày hết hạn</label>
+            <input type="date" name="ExpDate" placeholder="@DateTime.Today">
+        </div>
+        <div class="form-group mx-sm-3 mb-2">
+            <label for="inputPassword2" class="sr-only">Ngày sản xuất</label>
+            <input type="date" name="Created" placeholder="@DateTime.Today">
+        </div>
+        <button type="submit" class="btn btn-primary mb-2">Thêm mới</button>
+    </form>
+    <h5>@Model.print</h5>
+</div>
+</body>
+</html>

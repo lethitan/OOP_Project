@@ -43,6 +43,30 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/chocole/Desktop/DoAn_OOP/DoAn_WEB/Pages/ProductLog/AddProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdExvZy9BZGRQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/chocole/Desktop/DoAn_OOP/DoAn_WEB/Pages/ProductLog/DeleteProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdExvZy9EZWxldGVQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/chocole/Desktop/DoAn_OOP/DoAn_WEB/Pages/ProductLog/Expires.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdExvZy9FeHBpcmVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/chocole/Desktop/DoAn_OOP/DoAn_WEB/Pages/ProductLog/Inventory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdExvZy9JbnZlbnRvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/chocole/Desktop/DoAn_OOP/DoAn_WEB/Pages/ProductLog/ListProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdExvZy9MaXN0UHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/chocole/Desktop/DoAn_OOP/DoAn_WEB/Pages/ProductLog/UpdateProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdExvZy9VcGRhdGVQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/chocole/Desktop/DoAn_OOP/DoAn_WEB/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

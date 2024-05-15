@@ -1,0 +1,54 @@
+@page
+@model DoAn_WEB.Pages.ProductLog.Inventory
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<div>
+
+    <div>
+        <a href="./AddProduct">Thêm sản phẩm</a> | <a href="./Inventory">Tồn kho</a> | <a href="./Expires">Hàng hết hạn</a>
+        <form method="post">
+            <input type="text" value="" name="Keyword"/>
+            <input type="submit" value="Tim kiem"/>
+        </form>
+    </div>
+    @if (@Model.dssp.Count > 0)
+    {
+        <div>
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Expiration date</th>
+                    <th>Provider</th>
+                    <th>Created date</th>
+                    <th>Category</th>
+                    <th>Inventory</th>
+                </tr>
+                @{
+                    for (int i = 0; i < Model.dssp.Count; i++)
+                    {
+                        <tr>
+                            <td>@Model.dssp[i].Id</td>
+                            <td>@Model.dssp[i].Name</td>
+                            <td>@Model.dssp[i].ExpDate.ToShortDateString() </td>
+                            <td>@Model.dssp[i].Provider</td>
+                            <td>@Model.dssp[i].Created.ToShortDateString()</td>
+                            <td>@Model.dssp[i].Category.Name</td>
+                            <td>@Model._productService.CountInventory(Model.dssp[i].Id)</td>
+                        </tr>
+                    }
+                }
+
+            </table>
+        </div>
+    }
+</div>
+</body>
+</html>

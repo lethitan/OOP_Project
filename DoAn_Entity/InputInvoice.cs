@@ -7,6 +7,12 @@ public class InputInvoice
     private InputDetail[] _importDetails;
     public DateTime Created { get; set; }
 
+    public InputDetail[] ImportDetails
+    {
+        get => _importDetails;
+        set => _importDetails = value ?? throw new ArgumentNullException(nameof(value));
+    }
+
     public double SumAmount()
     {
         double sum = 0;

@@ -1,17 +1,17 @@
-using DoAn_Repository;
 using DoAn_Service;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace DoAn_WEB.Pages.CategoryLog;
+namespace DoAn_WEB.Pages.ProductLog;
 
-public class DeleteCategory : PageModel
+public class DeleteProduct : PageModel
 {
     public int id;
     public string print = string.Empty;
-    private ICategoryService _categoryService = new CategoryService();
+    private IProductService _productService = new ProductService();
+
     public void OnGet()
     {
-        if(!int.TryParse(Request.Query["id"],out id))
+        if (!int.TryParse(Request.Query["ID"], out id))
         {
             print = "Mã loại hàng không hợp lệ!";
         }
@@ -21,14 +21,13 @@ public class DeleteCategory : PageModel
     {
         try
         {
-            id = int.Parse(Request.Query["id"]);
-            _categoryService.Delete(id);
-            Response.Redirect("./ListCategory");
+            id = int.Parse(Request.Query["Id"]);
+            _productService.Delete(id);
+            Response.Redirect("./ListProduct");
         }
         catch (Exception e)
         {
             print = e.Message;
         }
-        
     }
 }

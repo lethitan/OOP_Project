@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "created": "2023-12-12T00:00:00",
+    "invoicedetails": [
+      {
+        "id": 1,
+        "product": {
+          "id": 1,
+          "name": "TungDo",
+          "expDate": "2014-10-01T00:00:00",
+          "provider": "CAM",
+          "created": "2001-11-12T00:00:00",
+          "category": {
+            "id": 1,
+            "name": "TungDo"
+          }
+        },
+        "price": 150.0,
+        "quantity": 1
+      },
+      {
+        "id": 2,
+        "product": {
+          "id": 2,
+          "name": "Tung",
+          "expDate": "2014-10-01T00:00:00",
+          "provider": "SAM",
+          "created": "2001-11-11T00:00:00",
+          "category": {
+            "id": 2,
+            "name": "Tung"
+          }
+        },
+        "price": 130.0,
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "created": "2022-12-12T00:00:00",
+    "invoicedetails": [
+      {
+        "id": 3,
+        "product": {
+          "id": 1,
+          "name": "TungDo",
+          "expDate": "2014-10-01T00:00:00",
+          "provider": "CAM",
+          "created": "2001-11-12T00:00:00",
+          "category": {
+            "id": 1,
+            "name": "TungDo"
+          }
+        },
+        "price": 120.0,
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "created": "2024-05-14T00:00:00+07:00",
+    "invoicedetails": [
+      {
+        "id": 3,
+        "product": {
+          "id": 3,
+          "name": "Do",
+          "expDate": "2014-10-01T00:00:00",
+          "provider": "LAM",
+          "created": "2003-12-12T00:00:00",
+          "category": {
+            "id": 2,
+            "name": "Tung"
+          }
+        },
+        "price": 1220.0,
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "created": "2024-05-14T00:00:00+07:00",
+    "invoicedetails": [
+      {
+        "id": 4,
+        "product": {
+          "id": 3,
+          "name": "Do",
+          "expDate": "2014-10-01T00:00:00",
+          "provider": "LAM",
+          "created": "2003-12-12T00:00:00",
+          "category": {
+            "id": 2,
+            "name": "Tung"
+          }
+        },
+        "price": 20.0,
+        "quantity": 1
+      }
+    ]
+  }
+]

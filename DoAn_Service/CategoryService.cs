@@ -55,9 +55,9 @@ public class CategoryService : ICategoryService
 
     public void UpdateCategory(int id, string name)
     {
-        Category newCategory = _categoryRepositoryImpl.GetById(id);
-        if (newCategory.Id != 0)
+        if (id != 0)
         {
+            Category newCategory = _categoryRepositoryImpl.GetById(id);
             newCategory.Name = name;
             _categoryRepositoryImpl.UpdateCategory(newCategory);
         }
